@@ -1,0 +1,41 @@
+title: Status updates
+author: Konstantinos Chorianopoulos
+email: status@epidro.me
+description: >- # this means to ignore newlines until "baseurl:"
+  This is a microblog (twitter clone) with status updates about
+  various topics. You can follow the updates with the RSS feed, or
+  you can contribute to the Github repository.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+github_username: epidrome
+keybase_username: epidrome
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+
+# Build settings
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+permalink: /:slug
+show_excerpts: true
+# If you want to link only specific pages in your header, uncomment
+# # this and add the path to the pages in order as they should show up
+header_pages:
+  - about.markdown
+
+defaults:
+  -
+    scope:
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "status"
