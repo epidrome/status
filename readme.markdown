@@ -2,6 +2,8 @@
 layout: page
 title: About
 ---
+Explore [topics of interest](/tags) :books:
+
 Follow the [RSS feed](https://status.epidro.me/feed.xml) with a feed reader :cat2: :cat2: :cat2:
 
 Contribute by openning a [Github Issue](https://github.com/epidrome/status/issues) :computer:

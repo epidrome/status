@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<h3>#{{ page.title }}</h3>
+<ul class="posts">
+  {% for post in page.posts %}
+    <li>{% include item.html %}</li>
+  {% endfor %}
+</ul>

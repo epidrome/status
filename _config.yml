@@ -15,24 +15,27 @@ keybase_username: epidrome
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
+show_excerpts: true
+header_pages:
+  - readme.markdown
 
 # Build settings
 remote_theme: jekyll/minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jemoji
   - jekyll-remote-theme
+  - jekyll-archives
 
 permalink: /:slug
-show_excerpts: true
-# If you want to link only specific pages in your header, uncomment
-# # this and add the path to the pages in order as they should show up
-header_pages:
-  - readme.markdown
+
+jekyll-archives:
+  enabled: [tags]
+  layout: archive
+  permalinks:
+    tag: '/tag/:name/'
 
 defaults:
   -
