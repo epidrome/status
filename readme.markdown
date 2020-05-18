@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-Explore [topics of interest](/tags) :books:
+Explore [topics of interest](https://status.epidro.me/tags) :books:
 
 Follow the [RSS feed](https://status.epidro.me/feed.xml) with a feed reader :cat2: :cat2: :cat2:
 
