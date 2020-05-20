@@ -1,9 +1,4 @@
-        <a href="{{ post.url | relative_url }}">
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-        </a>
-
         {% if site.show_excerpts %}
-            {{ post.excerpt }}
+            {{ post.excerpt }} {% include tags.html %}
         {% endif %}
 
-        {% include tags.html %}
