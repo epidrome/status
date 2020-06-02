@@ -1,19 +1,21 @@
 title: Status updates
-author: Konstantinos Chorianopoulos
-email: status@epidro.me
+author: 
+  name: Konstantinos Chorianopoulos
+  email: status@epidro.me
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a microblog (twitter clone) with status updates about
-  various topics. You can follow the updates with the RSS feed, or
-  you can contribute to the Github repository.
+  Microblog (similar to Twitter, minus the hate) with 
+  status updates about various topics. You can follow the 
+  updates with the RSS feed, email a private message, or
+  post a public comment by oppening a github issue.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-github_username: epidrome
-keybase_username: epidrome
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
+  social_links:
+    github: epidrome
   date_format: "%b %-d, %Y"
 show_excerpts: true
 header_pages:
