@@ -22,14 +22,14 @@ header_pages:
   - readme.markdown
 
 # Build settings
-remote_theme: jekyll/minima
+theme: minima
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jemoji
-  - jekyll-remote-theme
   - jekyll-archives
+  - kramdown-parser-gfm
 
 permalink: /:slug
 
